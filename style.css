@@ -1,0 +1,24 @@
+body{
+    background-image: linear-gradient(yellow,rgb(66, 242, 66));
+}
+div{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+#h11{
+    text-align: center;
+    color: hotpink;
+    
+}
+#h11:hover{
+    text-shadow: springgreen;
+}
+pre{
+  font-size: larger; 
+  color: brown; 
+}
+b{
+    font-size: 20px;
+    color:rgb(126, 13, 101) ;
+}

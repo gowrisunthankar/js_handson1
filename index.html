@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h11">JS HANDSON 1</h1>
+    <div>
+        <b>1.Add two Numbers</b>
+        <p>You are provided with two numbers A and B. Your task is to add these two numbers.
+            <br>Note: You have to complete AddTwoNumbers function. No need to take any input.</p>
+        <pre>
+            const AddTwoNumbers = (a,b) => {
+                return a+b;
+            };
+        </pre>
+    </div><br>
+
+    <div>
+        <b>2.Find if the conditions are obeyed or not?</b>
+        <p>You are given two number first as A and second as B and check if both conditions (A<10 and A>B) are satisfied or not with the help of operators.
+            <br>Note: You have to complete Is_Valid function. No need to take any input.</p>
+        <pre>
+            const Is_Valid = (a,b) => {
+                return a<10 && a>b;  
+              };
+              
+        </pre>
+    </div><br>
+
+    <div>
+        <b>3.Check the conditons </b>
+        <p>You are given two numbers A and B. You need to do the following checks:
+            <ol><li>if both are divisible by 10 console true.</li>
+                <li> if both are not divisible by 10 console false.</li>
+                <li> if one of them only is divisible by 10 console true.</li></ol>
+            Use operator to do this.
+        <br>Note: You have to complete Check function. No need to take any input..</p>
+        <pre>
+            const Check = (A, B) => 
+            {
+             if(A%10 === 0 && B%10 === 0)
+             {
+               return "true";
+             }
+             if(A%10 === 0 || B%10  ===0)
+             {
+               return "true";
+             }
+             else {
+               return "false";
+             }
+            };
+        </pre>
+    </div><br>
+
+    <div>
+        <b>4.Find the first digit of a 4 digit number</b>
+        <p>You are provided a four digit number N only. Your task is to print out the first digit of that number.
+            <br>Note: You have to complete First_Digit function. No need to take any input.</p>
+        <pre>
+            const First_Digit = (n) => {
+                n=parseInt(n/1000);
+                return n;
+            
+            };
+        </pre>
+    </div><br>
+
+    <div>
+        <b>5.Find the last digit of a 4 digit number</b>
+            <p> You are provided a four digit number N only. Your task is to print out the last digit of that number.    
+            <br>Note: You have to complete Last_Digit function. No need to take any input..</p>
+        <pre>
+            const Last_Digit = (n) => {
+                return n % 10;
+             };
+        </pre>
+    </div><br>
+
+    <div>
+        <b>6.Find the remainder</b>
+        <p>You are provided with two numbers A and B where A as  divisor and B as  dividend.Your task is find the remainder.
+        <br> Note: You have to complete Find_the_remainder function. No need to take any input.</p>
+        <pre>
+            const Find_the_remainder = (a,b) => {
+                return b%a;
+            };            
+        </pre>
+    </div><br>
+
+    <div>
+        <b>7.Multipy two Numbers</b>
+        <p>You are provided with two numbers A and B. Your task is to multiply these two numbers.
+        <br>Note: You have to complete Multiply_two_number function. No need to take any input.</p>
+        <pre>
+            const Multiply_two_number = (a,b) => {
+                return a*b;
+                  
+              };              
+        </pre>
+    </div><br>
+    <div>
+        <b>8.Marks Calculator</b>
+        <p>Shyam has got his marks in three subjects as A,B, and C (out of 100).Write a program to calculate his total marks and his average.
+        <br>Note: You have to complete Sum and Average functions. No need to take any input.</p>
+        <pre>
+            const Sum = (A, B, C) => 
+            {
+              total =A+B+C;
+              return total;
+            };
+            
+            const Average = (A, B, C) => 
+            {
+             avg=total/300;
+             avg=avg*100;
+             return avg;
+            };
+        </pre>
+    </div>
+
+
+    
+</body>
+</html>
